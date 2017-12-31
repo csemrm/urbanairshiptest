@@ -54,6 +54,7 @@
         <module platform="android">com.urbanairship</module>
         <module platform="iphone">ti.map</module>
         <module platform="android">ti.map</module>
+        <module platform="android">ti.playservices</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>
@@ -61,7 +62,7 @@
         <target device="iphone">true</target>
         <target device="mobileweb">false</target>
     </deployment-targets>
-    <sdk-version>6.3.0.GA</sdk-version>
+    <sdk-version>7.0.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
